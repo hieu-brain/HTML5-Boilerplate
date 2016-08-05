@@ -1,0 +1,26 @@
+html {
+  background-color: #d3d3d3;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+._normal {
+  display: inherit;
+}
+
+._small {
+  display: none;
+}
+
+@media screen and (max-width: 641px) {
+  ._normal {
+    display: none;
+  }
+
+  ._small {
+    display: inherit;
+  }
+}
